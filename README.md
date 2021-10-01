@@ -11,7 +11,10 @@ Initial review of the code built during the module revealed that the primary sou
 
 
 The first step in refactoring the code is to create a mechanism for evaluating the ticker column cell for which ticker symbol is contained in the cell so that the rest of the information from the row analysis can be put in the appropriate place in our output arrays (which we also need to create).  First I created a variable named tickerIndex and set the value to zero:
+
 ![image](https://user-images.githubusercontent.com/90977689/135694564-95ca8e76-830d-4c5b-950b-9dbeb4bf65e1.png)
+
+
 Then I created the output arrays:
 ![image](https://user-images.githubusercontent.com/90977689/135694649-f36895d4-dcd1-4083-bd66-d8c2ea0049d2.png)
 
@@ -26,7 +29,13 @@ The refactored code delivered the same spreadsheet results as the original code.
 ![image](https://user-images.githubusercontent.com/90977689/135662302-b9761ef5-e525-4597-8e0c-789a5788d4ee.png)
 
   ![image](https://user-images.githubusercontent.com/90977689/135662046-c6da964f-107b-4918-88ac-260a8cd8f708.png)
-The refactored code executed the analysis more quickly than the original.
+
+
+And as expected, since our new refactored code was designed to eliminate the time wasted going down all 313 rows twelve different times, the refactored code executed the analysis more quickly than the original.
+
+![image](https://user-images.githubusercontent.com/90977689/135695482-d724d7c2-2959-449d-a396-95a7e529b68c.png)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/90977689/135695502-8c9ee403-e266-4ec7-8e5f-255b701cf7e0.png)
+
 
 ## Summary
 
