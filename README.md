@@ -34,10 +34,13 @@ The refactored code delivered the same spreadsheet results as the original code.
 And as expected, since our new refactored code was designed to eliminate the time wasted going down all 313 rows twelve different times, the refactored code executed the analysis more quickly than the original.
 
 ![image](https://user-images.githubusercontent.com/90977689/135695482-d724d7c2-2959-449d-a396-95a7e529b68c.png)
-![VBA_Challenge_2018](https://user-images.githubusercontent.com/90977689/135695502-8c9ee403-e266-4ec7-8e5f-255b701cf7e0.png)
+![image](https://user-images.githubusercontent.com/90977689/135695629-c65d6420-9f55-4b2f-a1de-07ffd0d58080.png)
 
+Success!
 
 ## Summary
+This was an interesting exercise that shows how dramatically you can improve runtime with some logical adjustments to the code.  This was a short program where the original code seemed to run pretty quickly so I was surprised at the magnitude of the difference once the code was refactored. At first I struggled quite a bit with this assignment.  Even though it was easy to see the logic change that needed to take place in how the code operated, going from the concept to practical implementation was confusing at first.  It wasn't until I really thought about the relationship between the tickerIndex variable and the output arrays that I was able to come up with a plan.  Being my first time coding, syntax was not intuitive at first but having struggled with it, I feel like I understand it better now than if I were just trying to learn from examples in a book.
+
 
 ### What are the advantages or disadvantages of refactoring code?
 
