@@ -1,7 +1,7 @@
 # Stock Analysis - Module 2 Challenge
 
 ## Overview of Project
-
+Module 2 was an introduction to vba and was focused on manipulation of the 2017 and 2018 stock information from 12 different environmentally companies.  These "green stocks" needed to be analyzed to help our fictional friend "Steve" who was interested in providing his parents with an analysis to help them make investment decisions.  Throughout the module we built code that enabled the end user to select a year and then have the Total Daily Volume and Rate of Return for the year for each stock calculated and presented in a conditional formatted table.  Additionaly we learned to incorporate a run timer so we could see how long it took our code to execute.  The purpose of this challenge was for us to refactor the code to make it more efficient in how it processes data and as a result run the process more quicly than the original code.
 
 ## Results
 
