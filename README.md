@@ -26,6 +26,7 @@ Then I created code to output each of the arrays into the "All Stocks Analysis" 
 
 After standard formatting, the code was ready to be run.
 The refactored code delivered the same spreadsheet results as the original code.
+
 ![image](https://user-images.githubusercontent.com/90977689/135662302-b9761ef5-e525-4597-8e0c-789a5788d4ee.png)
 
   ![image](https://user-images.githubusercontent.com/90977689/135662046-c6da964f-107b-4918-88ac-260a8cd8f708.png)
